@@ -722,7 +722,7 @@ class basic_string_view {
 
   // }}}
 
-  // compare friends {{{
+  // compare friend functions {{{
 
   // We need these to be friend non-member functions because we want to compare
   // operands with different types (for example string_view vs const char*).
